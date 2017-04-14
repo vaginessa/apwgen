@@ -2,6 +2,7 @@ package fr.juavenel.apwgen;
 
 import android.content.Context;
 import android.net.Uri;
+
 import java.io.InputStream;
 import java.security.MessageDigest;
 import java.util.ArrayList;
@@ -9,8 +10,8 @@ import java.util.ArrayList;
 class PasswordGenerator {
 
     private final Context mContext;
-    private int mId;
     private final ArrayList<String> mList;
+    private int mId;
     private MessageDigest mMessageDigest;
     private byte[] mSum;
 

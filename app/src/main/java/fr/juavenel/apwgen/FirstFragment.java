@@ -23,7 +23,7 @@ public class FirstFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View view =  inflater.inflate(R.layout.fragment_first, container, false);
+        View view = inflater.inflate(R.layout.fragment_first, container, false);
 
         Button button = (Button) view.findViewById(R.id.button_generate);
         button.setOnClickListener(new View.OnClickListener() {
